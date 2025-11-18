@@ -97,9 +97,8 @@
         <div class="header-gradient text-white p-8">
             <div class="flex justify-between items-center">
                 <div>
-                    <h1 class="text-3xl font-bold">RELATÓRIO DE VERIFICAÇÃO DAS BOAS PRÁTICAS PARA RESTAURANTES</h1>
-                    <p class="text-green-200 mt-2">Verificar o cumprimento das normas de boas práticas de manipulação (Resolução RDC nº 216/2004)</p>
-                    <p class="text-green-100 text-sm mt-1">www.alimentosonline.com.br</p>
+                    <h1 class="text-3xl font-bold">RELATÓRIO DE AUDITORIA PARA RESTAURANTES</h1>
+                    <p class="text-green-200 mt-2">Verificar o cumprimento das normas de boas práticas de manipulação (RDC nº 216/2004)</p>
                 </div>
                 <div class="bg-white p-2 rounded-lg" style="width: 64px; height: 64px; display: flex; align-items: center; justify-content: center; color: #145214; font-weight: bold;">
                     <i class="fas fa-utensils text-4xl"></i>
@@ -111,36 +110,24 @@
         <div class="p-8 border-b border-nutri-200">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
                 <div>
-                    <p><span class="font-medium text-nutri-800">Nome da empresa:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true"></span></p>
+                    <p><span class="font-medium text-nutri-800">RESTAURANTE:</span> 
+                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">_____________</span></p>
                 </div>
                 <div>
-                    <p><span class="font-medium text-nutri-800">Data de emissão:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">____/_____/____</span></p>
+                    <p><span class="font-medium text-nutri-800">POLO:</span> 
+                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">_____________</span></p>
                 </div>
                 <div>
-                    <p><span class="font-medium text-nutri-800">Revisão nº:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">0</span></p>
+                    <p><span class="font-medium text-nutri-800">DATA DA VISITA:</span> 
+                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">__/__/____</span></p>
                 </div>
                 <div>
-                    <p><span class="font-medium text-nutri-800">Data da Revisão:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">___/____/___</span></p>
+                    <p><span class="font-medium text-nutri-800">NUTRICIONISTA RESPONSÁVEL:</span> 
+                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">_____________</span></p>
                 </div>
                 <div>
-                    <p><span class="font-medium text-nutri-800">Documento nº:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">LV -xx Folha 1/1</span></p>
-                </div>
-                <div>
-                    <p><span class="font-medium text-nutri-800">Responsável:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true"></span></p>
-                </div>
-                <div>
-                    <p><span class="font-medium text-nutri-800">Elaborado por:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true"></span></p>
-                </div>
-                <div>
-                    <p><span class="font-medium text-nutri-800">Frequência:</span> 
-                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true"></span></p>
+                    <p><span class="font-medium text-nutri-800">RESPONSÁVEL PELA UNIDADE:</span> 
+                    <span class="border-b border-dashed border-nutri-400 px-2" contenteditable="true">_____________</span></p>
                 </div>
             </div>
         </div>
@@ -277,13 +264,6 @@
                 <input type="radio" name="item_1_6_2" value="NC" onclick="updateScore('NC', '1.6.2')">
                 <input type="radio" name="item_1_6_2" value="NA" onclick="updateScore('NA', '1.6.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="1.6.3">
-                <label>1.6.3 Existência de ângulos abaulados entre as paredes e o piso.</label>
-                <input type="radio" name="item_1_6_3" value="C" onclick="updateScore('C', '1.6.3')">
-                <input type="radio" name="item_1_6_3" value="NC" onclick="updateScore('NC', '1.6.3')">
-                <input type="radio" name="item_1_6_3" value="NA" onclick="updateScore('NA', '1.6.3')">
-                <div class="text-center font-medium text-nutri-700">R</div>
             </div>
 
             <!-- 1.7 PORTAS -->
@@ -473,6 +453,13 @@
                 <input type="radio" name="item_1_10_3" value="NA" onclick="updateScore('NA', '1.10.3')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
+            <div class="checklist-item-row" data-item-id="1.10.4">
+                <label>1.10.4 Existência de registro das higienizações.</label>
+                <input type="radio" name="item_1_10_4" value="C" onclick="updateScore('C', '1.10.4')">
+                <input type="radio" name="item_1_10_4" value="NC" onclick="updateScore('NC', '1.10.4')">
+                <input type="radio" name="item_1_10_4" value="NA" onclick="updateScore('NA', '1.10.4')">
+                <div class="text-center font-medium text-nutri-700">N</div>
+            </div>
 
             <!-- 1.11 LAVATÓRIOS NA ÁREA DE PRODUÇÃO -->
             <div class="px-4 py-2 bg-nutri-50 mt-4">
@@ -550,14 +537,14 @@
                 <h4 class="font-medium text-nutri-700">1.14 HIGIENIZAÇÃO DAS INSTALAÇÕES</h4>
             </div>
             <div class="checklist-item-row" data-item-id="1.14.1">
-                <label>1.14.1 Existência de um profissional responsável pela operação de higienização.</label>
+                <label>1.14.1 Existência de equipe responsável pela operação de higienização.</label>
                 <input type="radio" name="item_1_14_1" value="C" onclick="updateScore('C', '1.14.1')">
                 <input type="radio" name="item_1_14_1" value="NC" onclick="updateScore('NC', '1.14.1')">
                 <input type="radio" name="item_1_14_1" value="NA" onclick="updateScore('NA', '1.14.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="1.14.2">
-                <label>1.14.2 Profissional é comprovadamente capacitado.</label>
+                <label>1.14.2 Equipe é comprovadamente capacitada (treinamentos de boas práticas, produtos químicos, equipamentos de proteção individual, etc).</label>
                 <input type="radio" name="item_1_14_2" value="C" onclick="updateScore('C', '1.14.2')">
                 <input type="radio" name="item_1_14_2" value="NC" onclick="updateScore('NC', '1.14.2')">
                 <input type="radio" name="item_1_14_2" value="NA" onclick="updateScore('NA', '1.14.2')">
@@ -700,7 +687,7 @@
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="1.16.4">
-                <label>1.16.4 Existência de profissional comprovadamente capacitado para a higienização do reservatório de água.</label>
+                <label>1.16.4 Existência de empresa comprovadamente capacitada para a higienização do reservatório de água.</label>
                 <input type="radio" name="item_1_16_4" value="C" onclick="updateScore('C', '1.16.4')">
                 <input type="radio" name="item_1_16_4" value="NC" onclick="updateScore('NC', '1.16.4')">
                 <input type="radio" name="item_1_16_4" value="NA" onclick="updateScore('NA', '1.16.4')">
@@ -817,41 +804,22 @@
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
 
-            <!-- 1.18 ESGOTAMENTO SANITÁRIO -->
+            <!-- 1.18 LAYOUT -->
             <div class="px-4 py-2 bg-nutri-50 mt-4">
-                <h4 class="font-medium text-nutri-700">1.18 ESGOTAMENTO SANITÁRIO</h4>
+                <h4 class="font-medium text-nutri-700">1.18 LAYOUT</h4>
             </div>
             <div class="checklist-item-row" data-item-id="1.18.1">
-                <label>1.18.1 Fossas, esgoto conectado à rede pública, caixas de gordura em adequado estado de conservação e funcionamento.</label>
+                <label>1.18.1 Layout adequado ao processo produtivo: número, capacidade e distribuição das dependências de acordo com o ramo de atividade, volume de produção.</label>
                 <input type="radio" name="item_1_18_1" value="C" onclick="updateScore('C', '1.18.1')">
                 <input type="radio" name="item_1_18_1" value="NC" onclick="updateScore('NC', '1.18.1')">
                 <input type="radio" name="item_1_18_1" value="NA" onclick="updateScore('NA', '1.18.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="1.18.2">
-                <label>1.18.2 Caixa de gordura localizada fora da área de preparação e armazenamento de alimentos.</label>
+                <label>1.18.2 Fluxo ordenado e sem cruzamentos de forma a não permitir contaminação cruzada no processamento de alimentos.</label>
                 <input type="radio" name="item_1_18_2" value="C" onclick="updateScore('C', '1.18.2')">
                 <input type="radio" name="item_1_18_2" value="NC" onclick="updateScore('NC', '1.18.2')">
                 <input type="radio" name="item_1_18_2" value="NA" onclick="updateScore('NA', '1.18.2')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-
-            <!-- 1.19 LEIAUTE -->
-            <div class="px-4 py-2 bg-nutri-50 mt-4">
-                <h4 class="font-medium text-nutri-700">1.19 LEIAUTE</h4>
-            </div>
-            <div class="checklist-item-row" data-item-id="1.19.1">
-                <label>1.19.1 Leiaute adequado ao processo produtivo: número, capacidade e distribuição das dependências de acordo com o ramo de atividade, volume de produção.</label>
-                <input type="radio" name="item_1_19_1" value="C" onclick="updateScore('C', '1.19.1')">
-                <input type="radio" name="item_1_19_1" value="NC" onclick="updateScore('NC', '1.19.1')">
-                <input type="radio" name="item_1_19_1" value="NA" onclick="updateScore('NA', '1.19.1')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="1.19.2">
-                <label>1.19.2 Fluxo ordenado e sem cruzamentos de forma a não permitir contaminação cruzada no processamento de alimentos.</label>
-                <input type="radio" name="item_1_19_2" value="C" onclick="updateScore('C', '1.19.2')">
-                <input type="radio" name="item_1_19_2" value="NC" onclick="updateScore('NC', '1.19.2')">
-                <input type="radio" name="item_1_19_2" value="NA" onclick="updateScore('NA', '1.19.2')">
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
 
@@ -964,87 +932,52 @@
                 <h4 class="font-medium text-nutri-700">2.4 HIGIENIZAÇÃO DOS EQUIPAMENTOS E MAQUINÁRIOS E DOS MÓVEIS E UTENSÍLIOS</h4>
             </div>
             <div class="checklist-item-row" data-item-id="2.4.1">
-                <label>2.4.1 Existência de um responsável pela operação de higienização comprovadamente capacitado.</label>
+                <label>2.4.1 Freqüência de higienização adequada.</label>
                 <input type="radio" name="item_2_4_1" value="C" onclick="updateScore('C', '2.4.1')">
                 <input type="radio" name="item_2_4_1" value="NC" onclick="updateScore('NC', '2.4.1')">
                 <input type="radio" name="item_2_4_1" value="NA" onclick="updateScore('NA', '2.4.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="2.4.2">
-                <label>2.4.2 Freqüência de higienização adequada.</label>
+                <label>2.4.2 Existência de POP para higienização de equipamentos, móveis e utensílios.</label>
                 <input type="radio" name="item_2_4_2" value="C" onclick="updateScore('C', '2.4.2')">
                 <input type="radio" name="item_2_4_2" value="NC" onclick="updateScore('NC', '2.4.2')">
                 <input type="radio" name="item_2_4_2" value="NA" onclick="updateScore('NA', '2.4.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="2.4.3">
-                <label>2.4.3 Existência de POP para higienização de equipamentos, móveis e utensílios.</label>
+                <label>2.4.3 A etapa de higienização é realizada em área própria ou na impossibilidade, de forma a evitar contaminação cruzada.</label>
                 <input type="radio" name="item_2_4_3" value="C" onclick="updateScore('C', '2.4.3')">
                 <input type="radio" name="item_2_4_3" value="NC" onclick="updateScore('NC', '2.4.3')">
                 <input type="radio" name="item_2_4_3" value="NA" onclick="updateScore('NA', '2.4.3')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="2.4.4">
-                <label>2.4.4 Produtos de higienização regularizados pelo Ministério da Saúde.</label>
+                <label>2.4.4 Não são utilizados ajudas de limpeza como panos convencionais, panos de prato, para limpeza de secagem de mãos e utensílios ou ajudas de limpeza com partes de madeira ou lã de aço.</label>
                 <input type="radio" name="item_2_4_4" value="C" onclick="updateScore('C', '2.4.4')">
                 <input type="radio" name="item_2_4_4" value="NC" onclick="updateScore('NC', '2.4.4')">
                 <input type="radio" name="item_2_4_4" value="NA" onclick="updateScore('NA', '2.4.4')">
-                <div class="text-center font-medium text-nutri-700">N</div>
+                <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="2.4.5">
-                <label>2.4.5 Disponibilidade dos produtos de higienização necessários à realização da operação.</label>
+                <label>2.4.5 Após procedimentos de higienização, as ajudas de limpezas (escovas, raspadores, rodos etc) passam por um processo de higienização.</label>
                 <input type="radio" name="item_2_4_5" value="C" onclick="updateScore('C', '2.4.5')">
                 <input type="radio" name="item_2_4_5" value="NC" onclick="updateScore('NC', '2.4.5')">
                 <input type="radio" name="item_2_4_5" value="NA" onclick="updateScore('NA', '2.4.5')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="2.4.6">
-                <label>2.4.6 Produtos de higienização identificados e guardados em local adequado.</label>
+                <label>2.4.6 Após término da produção é feita higienização completa dos equipamentos móveis e utensílios.</label>
                 <input type="radio" name="item_2_4_6" value="C" onclick="updateScore('C', '2.4.6')">
                 <input type="radio" name="item_2_4_6" value="NC" onclick="updateScore('NC', '2.4.6')">
                 <input type="radio" name="item_2_4_6" value="NA" onclick="updateScore('NA', '2.4.6')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="2.4.7">
-                <label>2.4.7 Ajudas de limpeza (escovas, raspadores, rodos), em material adequado, e separados para área suja e área limpa.</label>
+                <label>2.4.7 Responsáveis pela higienização utilizam uniforme adequado e EPI’s quando necessário.</label>
                 <input type="radio" name="item_2_4_7" value="C" onclick="updateScore('C', '2.4.7')">
                 <input type="radio" name="item_2_4_7" value="NC" onclick="updateScore('NC', '2.4.7')">
                 <input type="radio" name="item_2_4_7" value="NA" onclick="updateScore('NA', '2.4.7')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="2.4.8">
-                <label>2.4.8 A etapa de higienização é realizada em área própria ou na impossibilidade, de forma a evitar contaminação cruzada.</label>
-                <input type="radio" name="item_2_4_8" value="C" onclick="updateScore('C', '2.4.8')">
-                <input type="radio" name="item_2_4_8" value="NC" onclick="updateScore('NC', '2.4.8')">
-                <input type="radio" name="item_2_4_8" value="NA" onclick="updateScore('NA', '2.4.8')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="2.4.9">
-                <label>2.4.9 Não são utilizados ajudas de limpeza como panos convencionais, panos de prato, para limpeza de secagem de mãos e utensílios ou ajudas de limpeza com partes de madeira ou lã de aço.</label>
-                <input type="radio" name="item_2_4_9" value="C" onclick="updateScore('C', '2.4.9')">
-                <input type="radio" name="item_2_4_9" value="NC" onclick="updateScore('NC', '2.4.9')">
-                <input type="radio" name="item_2_4_9" value="NA" onclick="updateScore('NA', '2.4.9')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="2.4.11">
-                <label>2.4.11 Após procedimentos de higienização, as ajudas de limpezas (escovas, raspadores, rodos etc) passam por um processo de higienização.</label>
-                <input type="radio" name="item_2_4_11" value="C" onclick="updateScore('C', '2.4.11')">
-                <input type="radio" name="item_2_4_11" value="NC" onclick="updateScore('NC', '2.4.11')">
-                <input type="radio" name="item_2_4_11" value="NA" onclick="updateScore('NA', '2.4.11')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="2.4.12">
-                <label>2.4.12 Após término da produção é feita higienização completa dos equipamentos móveis e utensílios.</label>
-                <input type="radio" name="item_2_4_12" value="C" onclick="updateScore('C', '2.4.12')">
-                <input type="radio" name="item_2_4_12" value="NC" onclick="updateScore('NC', '2.4.12')">
-                <input type="radio" name="item_2_4_12" value="NA" onclick="updateScore('NA', '2.4.12')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="2.4.13">
-                <label>2.4.13 Responsáveis pela higienização utilizam uniforme adequado e EPI’s quando necessário.</label>
-                <input type="radio" name="item_2_4_13" value="C" onclick="updateScore('C', '2.4.13')">
-                <input type="radio" name="item_2_4_13" value="NC" onclick="updateScore('NC', '2.4.13')">
-                <input type="radio" name="item_2_4_13" value="NA" onclick="updateScore('NA', '2.4.13')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
 
@@ -1138,67 +1071,41 @@
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
 
-            <!-- 3.4 PROGRAMA DE CONTROLE DE SAÚDE -->
+            <!-- 3.4 EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL -->
             <div class="px-4 py-2 bg-nutri-50 mt-4">
-                <h4 class="font-medium text-nutri-700">3.4 PROGRAMA DE CONTROLE DE SAÚDE</h4>
+                <h4 class="font-medium text-nutri-700">3.4 EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL</h4>
             </div>
             <div class="checklist-item-row" data-item-id="3.4.1">
-                <label>3.4.1 Existência de supervisão periódica do estado de saúde dos manipuladores.</label>
+                <label>3.4.1 Utilização de equipamentos de proteção individual.</label>
                 <input type="radio" name="item_3_4_1" value="C" onclick="updateScore('C', '3.4.1')">
                 <input type="radio" name="item_3_4_1" value="NC" onclick="updateScore('NC', '3.4.1')">
                 <input type="radio" name="item_3_4_1" value="NA" onclick="updateScore('NA', '3.4.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="3.4.2">
-                <label>3.4.2 Existência de registro dos exames realizados.</label>
-                <input type="radio" name="item_3_4_2" value="C" onclick="updateScore('C', '3.4.2')">
-                <input type="radio" name="item_3_4_2" value="NC" onclick="updateScore('NC', '3.4.2')">
-                <input type="radio" name="item_3_4_2" value="NA" onclick="updateScore('NA', '3.4.2')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
 
-            <!-- 3.5 EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL -->
+            <!-- 3.5 PROGRAMA DE CAPACITAÇÃO DOS MANIPULADORES E SUPERVISÃO -->
             <div class="px-4 py-2 bg-nutri-50 mt-4">
-                <h4 class="font-medium text-nutri-700">3.5 EQUIPAMENTOS DE PROTEÇÃO INDIVIDUAL</h4>
+                <h4 class="font-medium text-nutri-700">3.5 PROGRAMA DE CAPACITAÇÃO DOS MANIPULADORES E SUPERVISÃO</h4>
             </div>
             <div class="checklist-item-row" data-item-id="3.5.1">
-                <label>3.5.1 Utilização de equipamentos de proteção individual.</label>
+                <label>3.5.1 Existência de registro das capacitações e participantes.</label>
                 <input type="radio" name="item_3_5_1" value="C" onclick="updateScore('C', '3.5.1')">
                 <input type="radio" name="item_3_5_1" value="NC" onclick="updateScore('NC', '3.5.1')">
                 <input type="radio" name="item_3_5_1" value="NA" onclick="updateScore('NA', '3.5.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-
-            <!-- 3.6 PROGRAMA DE CAPACITAÇÃO DOS MANIPULADORES E SUPERVISÃO -->
-            <div class="px-4 py-2 bg-nutri-50 mt-4">
-                <h4 class="font-medium text-nutri-700">3.6 PROGRAMA DE CAPACITAÇÃO DOS MANIPULADORES E SUPERVISÃO</h4>
-            </div>
-            <div class="checklist-item-row" data-item-id="3.6.1">
-                <label>3.6.1 Existência de programa de capacitação contínuo relacionados à higiene pessoal e à manipulação dos alimentos.</label>
-                <input type="radio" name="item_3_6_1" value="C" onclick="updateScore('C', '3.6.1')">
-                <input type="radio" name="item_3_6_1" value="NC" onclick="updateScore('NC', '3.6.1')">
-                <input type="radio" name="item_3_6_1" value="NA" onclick="updateScore('NA', '3.6.1')">
+            <div class="checklist-item-row" data-item-id="3.5.2">
+                <label>3.5.2 Existência de supervisão da higiene pessoal e manipulação dos alimentos.</label>
+                <input type="radio" name="item_3_5_2" value="C" onclick="updateScore('C', '3.5.2')">
+                <input type="radio" name="item_3_5_2" value="NC" onclick="updateScore('NC', '3.5.2')">
+                <input type="radio" name="item_3_5_2" value="NA" onclick="updateScore('NA', '3.5.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="3.6.2">
-                <label>3.6.2 Existência de registro das capacitações, com programação, participantes.</label>
-                <input type="radio" name="item_3_6_2" value="C" onclick="updateScore('C', '3.6.2')">
-                <input type="radio" name="item_3_6_2" value="NC" onclick="updateScore('NC', '3.6.2')">
-                <input type="radio" name="item_3_6_2" value="NA" onclick="updateScore('NA', '3.6.2')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="3.6.3">
-                <label>3.6.3 Existência de supervisão da higiene pessoal e manipulação dos alimentos.</label>
-                <input type="radio" name="item_3_6_3" value="C" onclick="updateScore('C', '3.6.3')">
-                <input type="radio" name="item_3_6_3" value="NC" onclick="updateScore('NC', '3.6.3')">
-                <input type="radio" name="item_3_6_3" value="NA" onclick="updateScore('NA', '3.6.3')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="3.6.4">
-                <label>3.6.4 Existência de responsável pela supervisão comprovadamente capacitado.</label>
-                <input type="radio" name="item_3_6_4" value="C" onclick="updateScore('C', '3.6.4')">
-                <input type="radio" name="item_3_6_4" value="NC" onclick="updateScore('NC', '3.6.4')">
-                <input type="radio" name="item_3_6_4" value="NA" onclick="updateScore('NA', '3.6.4')">
+            <div class="checklist-item-row" data-item-id="3.5.3">
+                <label>3.5.3 Existência de responsáveis pela supervisão comprovadamente capacitados (líderes de cozinha e gerentes de salão).</label>
+                <input type="radio" name="item_3_5_4" value="C" onclick="updateScore('C', '3.5.4')">
+                <input type="radio" name="item_3_5_4" value="NC" onclick="updateScore('NC', '3.5.4')">
+                <input type="radio" name="item_3_5_4" value="NA" onclick="updateScore('NA', '3.5.4')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
 
@@ -1207,73 +1114,38 @@
                 <h3 class="font-semibold text-nutri-800">4. RECEPÇÃO MATÉRIAS-PRIMAS, INGREDIENTES E EMBALAGENS</h3>
             </div>
             <div class="checklist-item-row" data-item-id="4.1">
-                <label>4.1 A empresa possui um critério higiênico-sanitário para seleção dos fornecedores. Possui registro da seleção.</label>
+                <label>4.1 O restaurante possui um POP para recebimento de matéria prima, ingredientes e embalagens.</label>
                 <input type="radio" name="item_4_1" value="C" onclick="updateScore('C', '4.1')">
                 <input type="radio" name="item_4_1" value="NC" onclick="updateScore('NC', '4.1')">
                 <input type="radio" name="item_4_1" value="NA" onclick="updateScore('NA', '4.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="4.2">
-                <label>4.2 A empresa possui um POP para recebimento de matéria prima, ingredientes e embalagens.</label>
+                <label>4.2 O responsável pelo recebimento está devidamente capacitado.</label>
                 <input type="radio" name="item_4_2" value="C" onclick="updateScore('C', '4.2')">
                 <input type="radio" name="item_4_2" value="NC" onclick="updateScore('NC', '4.2')">
                 <input type="radio" name="item_4_2" value="NA" onclick="updateScore('NA', '4.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="4.3">
-                <label>4.3 O responsável pelo recebimento está devidamente capacitado.</label>
+                <label>4.3 São verificados no ato da recepção: rotulagem, data de validade, características sensoriais, temperatura, integridade das embalagens e higiene do produto.</label>
                 <input type="radio" name="item_4_3" value="C" onclick="updateScore('C', '4.3')">
                 <input type="radio" name="item_4_3" value="NC" onclick="updateScore('NC', '4.3')">
                 <input type="radio" name="item_4_3" value="NA" onclick="updateScore('NA', '4.3')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="4.4">
-                <label>4.4 Produtos de origem animal provenientes de estabelecimento com inspeção oficial.</label>
+                <label>4.4 É verificada na recepção a temperatura dos produtos perecíveis. Temperaturas: pescados e frutos do mar até 3°C, carnes (bovinas, suínas e aves) e laticínios até 7°C, alimentos refrigerados (frios e produtos pré-preparados) até 10°C (ou preferencialmente abaixo de +5°C, dependendo da especificação do fabricante), e alimentos congelados a -12°C ou inferior (preferencialmente -18°C).</label>
                 <input type="radio" name="item_4_4" value="C" onclick="updateScore('C', '4.4')">
                 <input type="radio" name="item_4_4" value="NC" onclick="updateScore('NC', '4.4')">
                 <input type="radio" name="item_4_4" value="NA" onclick="updateScore('NA', '4.4')">
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="4.5">
-                <label>4.5 São verificados no ato da recepção: rotulagem, data de validade, características sensoriais, temperatura, integridade das embalagens e higiene do produto.</label>
+                <label>4.5 Os lotes reprovados na recepção são imediatamente devolvidos ao fornecedor ou na impossibilidade, são identificados e armazenados separadamente e definidos a destinação final dos mesmos.</label>
                 <input type="radio" name="item_4_5" value="C" onclick="updateScore('C', '4.5')">
                 <input type="radio" name="item_4_5" value="NC" onclick="updateScore('NC', '4.5')">
                 <input type="radio" name="item_4_5" value="NA" onclick="updateScore('NA', '4.5')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="4.6">
-                <label>4.6 Os entregadores usam uniformes limpos e são verificados os procedimentos de higiene durante o descarregamento.</label>
-                <input type="radio" name="item_4_6" value="C" onclick="updateScore('C', '4.6')">
-                <input type="radio" name="item_4_6" value="NC" onclick="updateScore('NC', '4.6')">
-                <input type="radio" name="item_4_6" value="NA" onclick="updateScore('NA', '4.6')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="4.7">
-                <label>4.7 As carnes/lácteos, são transportados em veículos limpos, fechados e refrigerados.</label>
-                <input type="radio" name="item_4_7" value="C" onclick="updateScore('C', '4.7')">
-                <input type="radio" name="item_4_7" value="NC" onclick="updateScore('NC', '4.7')">
-                <input type="radio" name="item_4_7" value="NA" onclick="updateScore('NA', '4.7')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="4.8">
-                <label>4.8 É verificado a condição de entrega dos ovos, que devem vir limpos, com a casca íntegra.</label>
-                <input type="radio" name="item_4_8" value="C" onclick="updateScore('C', '4.8')">
-                <input type="radio" name="item_4_8" value="NC" onclick="updateScore('NC', '4.8')">
-                <input type="radio" name="item_4_8" value="NA" onclick="updateScore('NA', '4.8')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="4.9">
-                <label>4.9 É verificada na recepção a temperatura dos produtos perecíveis. Temperatura máxima: congelados –12ºC, carnes e leite 7ºC, outros refrigerados até 10ºC.</label>
-                <input type="radio" name="item_4_9" value="C" onclick="updateScore('C', '4.9')">
-                <input type="radio" name="item_4_9" value="NC" onclick="updateScore('NC', '4.9')">
-                <input type="radio" name="item_4_9" value="NA" onclick="updateScore('NA', '4.9')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="4.10">
-                <label>4.10 Os lotes reprovados na recepção são imediatamente devolvidos ao fornecedor ou na impossibilidade, são identificados e armazenados separadamente e definidos a destinação final dos mesmos.</label>
-                <input type="radio" name="item_4_10" value="C" onclick="updateScore('C', '4.10')">
-                <input type="radio" name="item_4_10" value="NC" onclick="updateScore('NC', '4.10')">
-                <input type="radio" name="item_4_10" value="NA" onclick="updateScore('NA', '4.10')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
 
@@ -1310,63 +1182,56 @@
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="5.5">
-                <label>5.5 Equipamento para controle de temperatura calibrados. Possuem registro das calibrações periódicas.</label>
+                <label>5.5 São armazenados separadamente, não permitindo contaminação cruzada, ou absorção de odores e sabores.</label>
                 <input type="radio" name="item_5_5" value="C" onclick="updateScore('C', '5.5')">
                 <input type="radio" name="item_5_5" value="NC" onclick="updateScore('NC', '5.5')">
                 <input type="radio" name="item_5_5" value="NA" onclick="updateScore('NA', '5.5')">
-                <div class="text-center font-medium text-nutri-700">N</div>
+                <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="5.6">
-                <label>5.6 São armazenados separadamente, não permitindo contaminação cruzada, ou absorção de odores e sabores.</label>
+                <label>5.6 Geladeira, freezer estão instalados longe de fontes de calor com forno e fogão.</label>
                 <input type="radio" name="item_5_6" value="C" onclick="updateScore('C', '5.6')">
                 <input type="radio" name="item_5_6" value="NC" onclick="updateScore('NC', '5.6')">
                 <input type="radio" name="item_5_6" value="NA" onclick="updateScore('NA', '5.6')">
-                <div class="text-center font-medium text-nutri-700">I</div>
+                <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="5.7">
-                <label>5.7 Geladeira, freezer estão instalados longe de fontes de calor com forno e fogão.</label>
+                <label>5.7 Há controle de tempo e temperatura para resfriados e congelados.</label>
                 <input type="radio" name="item_5_7" value="C" onclick="updateScore('C', '5.7')">
                 <input type="radio" name="item_5_7" value="NC" onclick="updateScore('NC', '5.7')">
                 <input type="radio" name="item_5_7" value="NA" onclick="updateScore('NA', '5.7')">
-                <div class="text-center font-medium text-nutri-700">N</div>
+                <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="5.8">
-                <label>5.8 Há controle de tempo e temperatura para resfriados e congelados.</label>
+                <label>5.8 Existência de registros dos controles efetuados.</label>
                 <input type="radio" name="item_5_8" value="C" onclick="updateScore('C', '5.8')">
                 <input type="radio" name="item_5_8" value="NC" onclick="updateScore('NC', '5.8')">
                 <input type="radio" name="item_5_8" value="NA" onclick="updateScore('NA', '5.8')">
-                <div class="text-center font-medium text-nutri-700">I</div>
+                <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="5.9">
-                <label>5.9 Existência de registros dos controles efetuados.</label>
+                <label>5.9 Para hortifrutigranjeiros não é permitido armazenamento em embalagens primárias.</label>
                 <input type="radio" name="item_5_9" value="C" onclick="updateScore('C', '5.9')">
                 <input type="radio" name="item_5_9" value="NC" onclick="updateScore('NC', '5.9')">
                 <input type="radio" name="item_5_9" value="NA" onclick="updateScore('NA', '5.9')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="5.10">
-                <label>5.10 Para hortifrutigranjeiros não é permitido armazenamento em caixas de madeira.</label>
+                <label>5.10 O tipo de armazenamento permite que a saída dos mesmo respeite o prazo de validade, primeiro que vence, primeiro que sai.</label>
                 <input type="radio" name="item_5_10" value="C" onclick="updateScore('C', '5.10')">
                 <input type="radio" name="item_5_10" value="NC" onclick="updateScore('NC', '5.10')">
                 <input type="radio" name="item_5_10" value="NA" onclick="updateScore('NA', '5.10')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="5.11">
-                <label>5.11 O tipo de armazenamento permite que a saída dos mesmo respeite o prazo de validade, primeiro que vence, primeiro que sai.</label>
+                <label>5.11 Produtos impróprios para o consumo (vencidos, alterados, embalagem violada etc) aguardando destino final, são armazenados separados e adequadamente.</label>
                 <input type="radio" name="item_5_11" value="C" onclick="updateScore('C', '5.11')">
                 <input type="radio" name="item_5_11" value="NC" onclick="updateScore('NC', '5.11')">
                 <input type="radio" name="item_5_11" value="NA" onclick="updateScore('NA', '5.11')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="5.12">
-                <label>5.12 Produtos impróprios para o consumo (vencidos, alterados, embalagem violada etc) aguardando destino final, são armazenados separados e adequadamente.</label>
-                <input type="radio" name="item_5_12" value="C" onclick="updateScore('C', '5.12')">
-                <input type="radio" name="item_5_12" value="NC" onclick="updateScore('NC', '5.12')">
-                <input type="radio" name="item_5_12" value="NA" onclick="updateScore('NA', '5.12')">
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
 
-            <!-- 5. ÁREA DE PREPARAÇÃO DE ALIMENTOS (Nota: O arquivo original tem dois "5." aqui, ajustei para 6. para seguir a sequência) -->
+            <!-- 6. ÁREA DE PREPARAÇÃO DE ALIMENTOS -->
             <div class="section-header px-4 py-3 mt-6 rounded-t-lg">
                 <h3 class="font-semibold text-nutri-800">6. ÁREA DE PREPARAÇÃO DE ALIMENTOS</h3>
             </div>
@@ -1392,387 +1257,228 @@
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.4">
-                <label>6.4 Produtos fatiados acondicionados em bandejas de isopor são rotulados e armazenados imediatamente após o preparo.</label>
+                <label>6.4 Utilizam equipamentos para controle de temperatura.</label>
                 <input type="radio" name="item_6_4" value="C" onclick="updateScore('C', '6.4')">
                 <input type="radio" name="item_6_4" value="NC" onclick="updateScore('NC', '6.4')">
                 <input type="radio" name="item_6_4" value="NA" onclick="updateScore('NA', '6.4')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.5">
-                <label>6.5 Rótulo de origem dos produtos fatiados são guardados até que todo ele seja consumido, permitindo rastreabilidade dos fatiados.</label>
+                <label>6.5 Alimentos submetidos a cocção atingem no mínimo 65ºC no seu centro geométrico.</label>
                 <input type="radio" name="item_6_5" value="C" onclick="updateScore('C', '6.5')">
                 <input type="radio" name="item_6_5" value="NC" onclick="updateScore('NC', '6.5')">
                 <input type="radio" name="item_6_5" value="NA" onclick="updateScore('NA', '6.5')">
-                <div class="text-center font-medium text-nutri-700">N</div>
+                <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.6">
-                <label>6.6 Critérios de estabelecimento de prazo de validade dos fatiados é condizente com prazo de validade do produto original.</label>
+                <label>6.6 Os óleos e gorduras são aquecidos e utilizados em uma temperatura não superior a 180ºC, sendo substituídos sempre que houver alteração evidente das características físico-químicas ou sensoriais, tais como sabor, aroma e formação intensa de espuma e fumaça.</label>
                 <input type="radio" name="item_6_6" value="C" onclick="updateScore('C', '6.6')">
                 <input type="radio" name="item_6_6" value="NC" onclick="updateScore('NC', '6.6')">
                 <input type="radio" name="item_6_6" value="NA" onclick="updateScore('NA', '6.6')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.7">
-                <label>6.7 Utilizam equipamentos para controle de temperatura.</label>
+                <label>6.7 O descongelamento ou dessalga dos produtos são feitos sob refrigeração (máximo 5ºC).</label>
                 <input type="radio" name="item_6_7" value="C" onclick="updateScore('C', '6.7')">
                 <input type="radio" name="item_6_7" value="NC" onclick="updateScore('NC', '6.7')">
                 <input type="radio" name="item_6_7" value="NA" onclick="updateScore('NA', '6.7')">
-                <div class="text-center font-medium text-nutri-700">N</div>
+                <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.8">
-                <label>6.8 Não fazem uso de ovos crus para o preparo de cremes, coberturas, maioneses ou outros produtos que não passam por tratamento térmico.</label>
+                <label>6.8 Alimentos submetidos ao descongelamento são mantidos em temperatura de refrigeração não sendo permitido o recongelamento.</label>
                 <input type="radio" name="item_6_8" value="C" onclick="updateScore('C', '6.8')">
                 <input type="radio" name="item_6_8" value="NC" onclick="updateScore('NC', '6.8')">
                 <input type="radio" name="item_6_8" value="NA" onclick="updateScore('NA', '6.8')">
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.9">
-                <label>6.9 Nos produtos que utilizam aditivos, são observados os critérios da legislação para o tipo e a quantidade permitida. Há registro deste procedimento.</label>
+                <label>6.9 Para conservação a quente, os alimentos preparados são submetidos a temperatura superior a 60ºC por no máximo 6 horas.</label>
                 <input type="radio" name="item_6_9" value="C" onclick="updateScore('C', '6.9')">
                 <input type="radio" name="item_6_9" value="NC" onclick="updateScore('NC', '6.9')">
                 <input type="radio" name="item_6_9" value="NA" onclick="updateScore('NA', '6.9')">
-                <div class="text-center font-medium text-nutri-700">N</div>
+                <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.10">
-                <label>6.10 Alimentos submetidos a cocção atingem no mínimo 70ºC no seu centro geométrico.</label>
+                <label>6.10 Para alimentos conservados sob refrigeração ou congelamento após a cocção, a temperatura do alimento preparado é reduzida de 60ºC a 10ºC em no máximo duas horas. Em seguida conservado sob refrigeração em temperatura inferior a 5ºC ou congelado em temperatura igual ou inferior a –18ºC.</label>
                 <input type="radio" name="item_6_10" value="C" onclick="updateScore('C', '6.10')">
                 <input type="radio" name="item_6_10" value="NC" onclick="updateScore('NC', '6.10')">
                 <input type="radio" name="item_6_10" value="NA" onclick="updateScore('NA', '6.10')">
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.11">
-                <label>6.11 Os óleos e gorduras são aquecidos e utilizados em uma temperatura não superior a 180ºC, sendo substituídos sempre que houver alteração evidente das características físico-químicas ou sensoriais, tais como sabor, aroma e formação intensa de espuma e fumaça.</label>
+                <label>6.11 Alimentos preparados armazenados sob refrigeração ou congelados são identificados com etiquetas e informações corretas.</label>
                 <input type="radio" name="item_6_11" value="C" onclick="updateScore('C', '6.11')">
                 <input type="radio" name="item_6_11" value="NC" onclick="updateScore('NC', '6.11')">
                 <input type="radio" name="item_6_11" value="NA" onclick="updateScore('NA', '6.11')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.12">
-                <label>6.12 O descongelamento ou dessalga dos produtos são feitos sob refrigeração (máximo 5ºC).</label>
+                <label>6.12 A temperatura de armazenamento a quente ou a frio é regularmente monitorada e registrada.</label>
                 <input type="radio" name="item_6_12" value="C" onclick="updateScore('C', '6.12')">
                 <input type="radio" name="item_6_12" value="NC" onclick="updateScore('NC', '6.12')">
                 <input type="radio" name="item_6_12" value="NA" onclick="updateScore('NA', '6.12')">
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.13">
-                <label>6.13 Alimentos submetidos ao descongelamento são mantidos em temperatura de refrigeração não sendo permitido o recongelamento.</label>
+                <label>6.14 Os alimentos consumidos crus são submetidos a processo de higienização (limpeza e sanitização) sendo os produtos utilizados na higienização regularizados no órgão competente do Ministério da Saúde e aplicados de forma a evitar a presença de resíduos no alimento preparado.</label>
                 <input type="radio" name="item_6_13" value="C" onclick="updateScore('C', '6.13')">
                 <input type="radio" name="item_6_13" value="NC" onclick="updateScore('NC', '6.13')">
                 <input type="radio" name="item_6_13" value="NA" onclick="updateScore('NA', '6.13')">
                 <div class="text-center font-medium text-nutri-700">I</div>
             </div>
             <div class="checklist-item-row" data-item-id="6.14">
-                <label>6.14 Para conservação a quente, os alimentos preparados são submetidos a temperatura superior a 60ºC por no máximo 6 horas.</label>
+                <label>6.14 Alimentos preparados são armazenados adequadamente de maneira a minimizar a contaminação cruzada ou absorção de odores e/ou sabores.</label>
                 <input type="radio" name="item_6_14" value="C" onclick="updateScore('C', '6.14')">
                 <input type="radio" name="item_6_14" value="NC" onclick="updateScore('NC', '6.14')">
                 <input type="radio" name="item_6_14" value="NA" onclick="updateScore('NA', '6.14')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="6.15">
-                <label>6.15 Para alimentos conservados sob refrigeração ou congelamento após a cocção, a temperatura do alimento preparado é reduzida de 60ºC a 10ºC em no máximo duas horas. Em seguida conservado sob refrigeração em temperatura inferior a 5ºC ou congelado em temperatura igual ou inferior a –18ºC.</label>
-                <input type="radio" name="item_6_15" value="C" onclick="updateScore('C', '6.15')">
-                <input type="radio" name="item_6_15" value="NC" onclick="updateScore('NC', '6.15')">
-                <input type="radio" name="item_6_15" value="NA" onclick="updateScore('NA', '6.15')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="6.16">
-                <label>6.16 Prazo máximo de consumo do alimento preparado e conservado sob refrigeração a 4ºC ou inferior é de 5 dias e entre 4ºC e 5ºC prazo de consumo menor que 5 dias.</label>
-                <input type="radio" name="item_6_16" value="C" onclick="updateScore('C', '6.16')">
-                <input type="radio" name="item_6_16" value="NC" onclick="updateScore('NC', '6.16')">
-                <input type="radio" name="item_6_16" value="NA" onclick="updateScore('NA', '6.16')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="6.17">
-                <label>6.17 Alimentos preparados armazenados sob refrigeração ou congelados são identificados com no mínimo: designação, data de preparo e validade.</label>
-                <input type="radio" name="item_6_17" value="C" onclick="updateScore('C', '6.17')">
-                <input type="radio" name="item_6_17" value="NC" onclick="updateScore('NC', '6.17')">
-                <input type="radio" name="item_6_17" value="NA" onclick="updateScore('NA', '6.17')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="6.18">
-                <label>6.18 A temperatura de armazenamento a quente ou a frio é regularmente monitorada e registrada.</label>
-                <input type="radio" name="item_6_18" value="C" onclick="updateScore('C', '6.18')">
-                <input type="radio" name="item_6_18" value="NC" onclick="updateScore('NC', '6.18')">
-                <input type="radio" name="item_6_18" value="NA" onclick="updateScore('NA', '6.18')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="6.19">
-                <label>6.19 Alimentos onde não se observam critérios de tempo/temperatura são desprezados.</label>
-                <input type="radio" name="item_6_19" value="C" onclick="updateScore('C', '6.19')">
-                <input type="radio" name="item_6_19" value="NC" onclick="updateScore('NC', '6.19')">
-                <input type="radio" name="item_6_19" value="NA" onclick="updateScore('NA', '6.19')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="6.20">
-                <label>6.20 Os alimentos consumidos crus são submetidos a processo de higienização (limpeza e sanitização) sendo os produtos utilizados na higienização regularizados no órgão competente do Ministério da Saúde e aplicados de forma a evitar a presença de resíduos no alimento preparado.</label>
-                <input type="radio" name="item_6_20" value="C" onclick="updateScore('C', '6.20')">
-                <input type="radio" name="item_6_20" value="NC" onclick="updateScore('NC', '6.20')">
-                <input type="radio" name="item_6_20" value="NA" onclick="updateScore('NA', '6.20')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="6.21">
-                <label>6.21 Alimentos preparados são armazenados adequadamente de maneira a minimizar a contaminação cruzada ou absorção de odores e/ou sabores.</label>
-                <input type="radio" name="item_6_21" value="C" onclick="updateScore('C', '6.21')">
-                <input type="radio" name="item_6_21" value="NC" onclick="updateScore('NC', '6.21')">
-                <input type="radio" name="item_6_21" value="NA" onclick="updateScore('NA', '6.21')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
 
-            <!-- 6. ÁREA DE REFEITÓRIO (Nota: O arquivo original tem dois "6." aqui, ajustei para 7. para seguir a sequência) -->
+            <!-- 7. DOCUMENTAÇÃO E REGISTRO -->
             <div class="section-header px-4 py-3 mt-6 rounded-t-lg">
-                <h3 class="font-semibold text-nutri-800">7. ÁREA DE REFEITÓRIO</h3>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.1">
-                <label>7.1 Alimentos expostos em equipamentos coerentes com o tipo de produto, em bom estado de conservação, limpos.</label>
-                <input type="radio" name="item_7_1" value="C" onclick="updateScore('C', '7.1')">
-                <input type="radio" name="item_7_1" value="NC" onclick="updateScore('NC', '7.1')">
-                <input type="radio" name="item_7_1" value="NA" onclick="updateScore('NA', '7.1')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.2">
-                <label>7.2 Alimentos expostos estão adequadamente protegido contra poeira, pragas e outras contaminações externas.</label>
-                <input type="radio" name="item_7_2" value="C" onclick="updateScore('C', '7.2')">
-                <input type="radio" name="item_7_2" value="NC" onclick="updateScore('NC', '7.2')">
-                <input type="radio" name="item_7_2" value="NA" onclick="updateScore('NA', '7.2')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.3">
-                <label>7.3 Alimentos preparados expostos a quente, são mantidos a uma temperatura superior a 60ºC por no máximo seis horas.</label>
-                <input type="radio" name="item_7_3" value="C" onclick="updateScore('C', '7.3')">
-                <input type="radio" name="item_7_3" value="NC" onclick="updateScore('NC', '7.3')">
-                <input type="radio" name="item_7_3" value="NA" onclick="updateScore('NA', '7.3')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.4">
-                <label>7.4 Alimentos preparados mantidos sobre refrigeração a temperatura inferior a 4ºC por no máximo 5 dias.</label>
-                <input type="radio" name="item_7_4" value="C" onclick="updateScore('C', '7.4')">
-                <input type="radio" name="item_7_4" value="NC" onclick="updateScore('NC', '7.4')">
-                <input type="radio" name="item_7_4" value="NA" onclick="updateScore('NA', '7.4')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.5">
-                <label>7.5 Existência de registro de controle de temperatura e prazo de validade para produtos preparados e mantidos sob refrigeração.</label>
-                <input type="radio" name="item_7_5" value="C" onclick="updateScore('C', '7.5')">
-                <input type="radio" name="item_7_5" value="NC" onclick="updateScore('NC', '7.5')">
-                <input type="radio" name="item_7_5" value="NA" onclick="updateScore('NA', '7.5')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.6">
-                <label>7.6 Possui funcionário treinado e que realiza os controles periodicamente.</label>
-                <input type="radio" name="item_7_6" value="C" onclick="updateScore('C', '7.6')">
-                <input type="radio" name="item_7_6" value="NC" onclick="updateScore('NC', '7.6')">
-                <input type="radio" name="item_7_6" value="NA" onclick="updateScore('NA', '7.6')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.7">
-                <label>7.7 Existência de registro de controle de tempo/temperatura.</label>
-                <input type="radio" name="item_7_7" value="C" onclick="updateScore('C', '7.7')">
-                <input type="radio" name="item_7_7" value="NC" onclick="updateScore('NC', '7.7')">
-                <input type="radio" name="item_7_7" value="NA" onclick="updateScore('NA', '7.7')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.8">
-                <label>7.8 Equipamentos utilizados para armazenar congelados e resfriados não apresentam sinais de desligamento ou oscilações de temperatura que possam comprometer a qualidade e a inocuidade dos produtos.</label>
-                <input type="radio" name="item_7_8" value="C" onclick="updateScore('C', '7.8')">
-                <input type="radio" name="item_7_8" value="NC" onclick="updateScore('NC', '7.8')">
-                <input type="radio" name="item_7_8" value="NA" onclick="updateScore('NA', '7.8')">
-                <div class="text-center font-medium text-nutri-700">I</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.9">
-                <label>7.9 Equipamento de exposição do alimento preparado na área de consumação dispõe de barreiras de proteção que previnam a contaminação do mesmo em decorrência da proximidade ou ação do consumidor ou de outras fontes.</label>
-                <input type="radio" name="item_7_9" value="C" onclick="updateScore('C', '7.9')">
-                <input type="radio" name="item_7_9" value="NC" onclick="updateScore('NC', '7.9')">
-                <input type="radio" name="item_7_9" value="NA" onclick="updateScore('NA', '7.9')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.10">
-                <label>7.10 Os utensílios utilizados na consumação do alimento, tais como pratos, copos, talheres, são descartáveis ou quando de material não descartável, devidamente higienizados, sendo armazenados em local protegido.</label>
-                <input type="radio" name="item_7_10" value="C" onclick="updateScore('C', '7.10')">
-                <input type="radio" name="item_7_10" value="NC" onclick="updateScore('NC', '7.10')">
-                <input type="radio" name="item_7_10" value="NA" onclick="updateScore('NA', '7.10')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="7.11">
-                <label>7.11 Possui área reservada para recebimento de dinheiro, cartões ou outros meios de pagamento, sendo que os funcionários responsáveis por esta atividade não devem manipular alimentos preparados, embalados ou não.</label>
-                <input type="radio" name="item_7_11" value="C" onclick="updateScore('C', '7.11')">
-                <input type="radio" name="item_7_11" value="NC" onclick="updateScore('NC', '7.11')">
-                <input type="radio" name="item_7_11" value="NA" onclick="updateScore('NA', '7.11')">
-                <div class="text-center font-medium text-nutri-700">N</div>
+                <h3 class="font-semibold text-nutri-800">7. DOCUMENTAÇÃO E REGISTRO</h3>
             </div>
 
-            <!-- 7. DOCUMENTAÇÃO E REGISTRO (Nota: O arquivo original tem dois "7." aqui, ajustei para 8. para seguir a sequência) -->
-            <div class="section-header px-4 py-3 mt-6 rounded-t-lg">
-                <h3 class="font-semibold text-nutri-800">8. DOCUMENTAÇÃO E REGISTRO</h3>
-            </div>
-
-            <!-- 7.1 MANUAL DE BOAS PRÁTICAS DE FABRICAÇÃO -->
+            <!-- 7.1 MANUAL DE BOAS PRÁTICAS DE MANIPULAÇÃO -->
             <div class="px-4 py-2 bg-nutri-50">
-                <h4 class="font-medium text-nutri-700">8.1 MANUAL DE BOAS PRÁTICAS DE FABRICAÇÃO</h4>
+                <h4 class="font-medium text-nutri-700">7.1 MANUAL DE BOAS PRÁTICAS DE MANIPULAÇÃO</h4>
             </div>
-            <div class="checklist-item-row" data-item-id="8.1.1">
-                <label>8.1.1 Possui Manual de Boas Práticas de Fabricação especifico para a empresa.</label>
-                <input type="radio" name="item_8_1_1" value="C" onclick="updateScore('C', '8.1.1')">
-                <input type="radio" name="item_8_1_1" value="NC" onclick="updateScore('NC', '8.1.1')">
-                <input type="radio" name="item_8_1_1" value="NA" onclick="updateScore('NA', '8.1.1')">
+            <div class="checklist-item-row" data-item-id="7.1.1">
+                <label>7.1.1 Possui Manual de Boas Práticas de Manipulação.</label>
+                <input type="radio" name="item_7_1_1" value="C" onclick="updateScore('C', '7.1.1')">
+                <input type="radio" name="item_7_1_1" value="NC" onclick="updateScore('NC', '7.1.1')">
+                <input type="radio" name="item_7_1_1" value="NA" onclick="updateScore('NA', '7.1.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.1.2">
-                <label>8.1.2 Operações executadas no estabelecimento estão de acordo com o Manual de Boas Práticas de Manipulação.</label>
-                <input type="radio" name="item_8_1_2" value="C" onclick="updateScore('C', '8.1.2')">
-                <input type="radio" name="item_8_1_2" value="NC" onclick="updateScore('NC', '8.1.2')">
-                <input type="radio" name="item_8_1_2" value="NA" onclick="updateScore('NA', '8.1.2')">
+            <div class="checklist-item-row" data-item-id="7.1.2">
+                <label>7.1.2 Operações executadas no estabelecimento estão de acordo com o Manual de Boas Práticas de Manipulação.</label>
+                <input type="radio" name="item_7_1_2" value="C" onclick="updateScore('C', '7.1.2')">
+                <input type="radio" name="item_7_1_2" value="NC" onclick="updateScore('NC', '7.1.2')">
+                <input type="radio" name="item_7_1_2" value="NA" onclick="updateScore('NA', '7.1.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.1.3">
-                <label>8.1.3 Manual fica disponível para consultas dos funcionários.</label>
-                <input type="radio" name="item_8_1_3" value="C" onclick="updateScore('C', '8.1.3')">
-                <input type="radio" name="item_8_1_3" value="NC" onclick="updateScore('NC', '8.1.3')">
-                <input type="radio" name="item_8_1_3" value="NA" onclick="updateScore('NA', '8.1.3')">
+            <div class="checklist-item-row" data-item-id="7.1.3">
+                <label>7.1.3 Manual fica disponível para consultas dos funcionários.</label>
+                <input type="radio" name="item_7_1_3" value="C" onclick="updateScore('C', '7.1.3')">
+                <input type="radio" name="item_7_1_3" value="NC" onclick="updateScore('NC', '7.1.3')">
+                <input type="radio" name="item_7_1_3" value="NA" onclick="updateScore('NA', '7.1.3')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.1.4">
-                <label>8.1.4 Os funcionários recebem treinamento de Boas Práticas e são estimulados a fazer usos do manual.</label>
-                <input type="radio" name="item_8_1_4" value="C" onclick="updateScore('C', '8.1.4')">
-                <input type="radio" name="item_8_1_4" value="NC" onclick="updateScore('NC', '8.1.4')">
-                <input type="radio" name="item_8_1_4" value="NA" onclick="updateScore('NA', '8.1.4')">
+            <div class="checklist-item-row" data-item-id="7.1.4">
+                <label>7.1.4 Os funcionários recebem treinamento de Boas Práticas.</label>
+                <input type="radio" name="item_7_1_4" value="C" onclick="updateScore('C', '7.1.4')">
+                <input type="radio" name="item_7_1_4" value="NC" onclick="updateScore('NC', '7.1.4')">
+                <input type="radio" name="item_7_1_4" value="NA" onclick="updateScore('NA', '7.1.4')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.1.5">
-                <label>8.1.5 Foram estabelecidos os Procedimentos Operacionais Padronizados (POPs) em linguagem simples e compatível ao funcionário da operação a que se destina.</label>
-                <input type="radio" name="item_8_1_5" value="C" onclick="updateScore('C', '8.1.5')">
-                <input type="radio" name="item_8_1_5" value="NC" onclick="updateScore('NC', '8.1.5')">
-                <input type="radio" name="item_8_1_5" value="NA" onclick="updateScore('NA', '8.1.5')">
+            <div class="checklist-item-row" data-item-id="7.1.5">
+                <label>7.1.5 Foram estabelecidos os Procedimentos Operacionais Padronizados (POPs) em linguagem simples e compatível ao funcionário da operação a que se destina.</label>
+                <input type="radio" name="item_7_1_5" value="C" onclick="updateScore('C', '7.1.5')">
+                <input type="radio" name="item_7_1_5" value="NC" onclick="updateScore('NC', '7.1.5')">
+                <input type="radio" name="item_7_1_5" value="NA" onclick="updateScore('NA', '7.1.5')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.1.6">
-                <label>8.1.6 Os POPs são cumpridos. Há supervisão do cumprimento.</label>
-                <input type="radio" name="item_8_1_6" value="C" onclick="updateScore('C', '8.1.6')">
-                <input type="radio" name="item_8_1_6" value="NC" onclick="updateScore('NC', '8.1.6')">
-                <input type="radio" name="item_8_1_6" value="NA" onclick="updateScore('NA', '8.1.6')">
+            <div class="checklist-item-row" data-item-id="7.1.6">
+                <label>7.1.6 Os POPs são cumpridos. Há supervisão do cumprimento.</label>
+                <input type="radio" name="item_7_1_6" value="C" onclick="updateScore('C', '7.1.6')">
+                <input type="radio" name="item_7_1_6" value="NC" onclick="updateScore('NC', '7.1.6')">
+                <input type="radio" name="item_7_1_6" value="NA" onclick="updateScore('NA', '7.1.6')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.1.7">
-                <label>8.1.7 Existência de documentação das ações corretivas a serem adotadas em caso de desvio das medidas de controle.</label>
-                <input type="radio" name="item_8_1_7" value="C" onclick="updateScore('C', '8.1.7')">
-                <input type="radio" name="item_8_1_7" value="NC" onclick="updateScore('NC', '8.1.7')">
-                <input type="radio" name="item_8_1_7" value="NA" onclick="updateScore('NA', '8.1.7')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="8.1.8">
-                <label>8.1.8 O Manual de BPF e os POPs são revisados com uma freqüência determinada.</label>
-                <input type="radio" name="item_8_1_8" value="C" onclick="updateScore('C', '8.1.8')">
-                <input type="radio" name="item_8_1_8" value="NC" onclick="updateScore('NC', '8.1.8')">
-                <input type="radio" name="item_8_1_8" value="NA" onclick="updateScore('NA', '8.1.8')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="8.1.9">
-                <label>8.1.9 Os registros dos POPs e outros registros de controle passam por supervisão periódica.</label>
-                <input type="radio" name="item_8_1_9" value="C" onclick="updateScore('C', '8.1.9')">
-                <input type="radio" name="item_8_1_9" value="NC" onclick="updateScore('NC', '8.1.9')">
-                <input type="radio" name="item_8_1_9" value="NA" onclick="updateScore('NA', '8.1.9')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="8.1.10">
-                <label>8.1.10 Os registros, manuais, formulários, planilhas de controle são arquivados de forma organizada e estão disponíveis sempre que necessários.</label>
-                <input type="radio" name="item_8_1_10" value="C" onclick="updateScore('C', '8.1.10')">
-                <input type="radio" name="item_8_1_10" value="NC" onclick="updateScore('NC', '8.1.10')">
-                <input type="radio" name="item_8_1_10" value="NA" onclick="updateScore('NA', '8.1.10')">
-                <div class="text-center font-medium text-nutri-700">N</div>
-            </div>
-            <div class="checklist-item-row" data-item-id="8.1.11">
-                <label>8.1.11 É feita avaliação periódica dos procedimentos realizados, dos registros dos fornecedores, reclamações dos clientes, das condições higiênicas do local e hábitos dos manipuladores de modo a garantir o controle sobre todo o processo na aquisição, transformação, armazenamento e distribuição dos produtos alimentícios.</label>
-                <input type="radio" name="item_8_1_11" value="C" onclick="updateScore('C', '8.1.11')">
-                <input type="radio" name="item_8_1_11" value="NC" onclick="updateScore('NC', '8.1.11')">
-                <input type="radio" name="item_8_1_11" value="NA" onclick="updateScore('NA', '8.1.11')">
+            <div class="checklist-item-row" data-item-id="7.1.7">
+                <label>7.1.7 Os registros dos POPs e outros registros de controle passam por supervisão periódica.</label>
+                <input type="radio" name="item_7_1_7" value="C" onclick="updateScore('C', '7.1.7')">
+                <input type="radio" name="item_7_1_7" value="NC" onclick="updateScore('NC', '7.1.7')">
+                <input type="radio" name="item_7_1_7" value="NA" onclick="updateScore('NA', '7.1.7')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
 
-            <!-- 7.2 PROCEDIMENTOS OPERACIONAIS PADRONIZADOS -->
+            <!-- 7.2 PASTA DE CONTROLE DE QUALIDADE -->
             <div class="px-4 py-2 bg-nutri-50 mt-4">
-                <h4 class="font-medium text-nutri-700">8.2 PROCEDIMENTOS OPERACIONAIS PADRONIZADOS</h4>
+                <h4 class="font-medium text-nutri-700">7.2 PASTA DE CONTROLE DE QUALIDADE</h4>
             </div>
             <div class="checklist-item-row" data-item-id="8.2.1.1">
-                <label>8.2.1.1 Higienização das instalações, equipamentos e utensílios: Existência de POP estabelecido para este item.</label>
-                <input type="radio" name="item_8_2_1_1" value="C" onclick="updateScore('C', '8.2.1.1')">
-                <input type="radio" name="item_8_2_1_1" value="NC" onclick="updateScore('NC', '8.2.1.1')">
-                <input type="radio" name="item_8_2_1_1" value="NA" onclick="updateScore('NA', '8.2.1.1')">
+                <label>7.2.1.1 Alvará de Funcionamento exposto em local visível, de fácil acesso e com cópia disponível em pasta.</label>
+                <input type="radio" name="item_7_2_1_1" value="C" onclick="updateScore('C', '7.2.1.1')">
+                <input type="radio" name="item_7_2_1_1" value="NC" onclick="updateScore('NC', '7.2.1.1')">
+                <input type="radio" name="item_7_2_1_1" value="NA" onclick="updateScore('NA', '7.2.1.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.1.2">
-                <label>8.2.1.2 Higienização das instalações, equipamentos e utensílios: POP descrito está sendo cumprido.</label>
-                <input type="radio" name="item_8_2_1_2" value="C" onclick="updateScore('C', '8.2.1.2')">
-                <input type="radio" name="item_8_2_1_2" value="NC" onclick="updateScore('NC', '8.2.1.2')">
-                <input type="radio" name="item_8_2_1_2" value="NA" onclick="updateScore('NA', '8.2.1.2')">
+            <div class="checklist-item-row" data-item-id="7.2.1.2">
+                <label>7.2.1.2 Licença Sanitária exposta em local visível, de fácil acesso e com cópia disponível em pasta.</label>
+                <input type="radio" name="item_7_2_1_2" value="C" onclick="updateScore('C', '7.2.1.2')">
+                <input type="radio" name="item_7_2_1_2" value="NC" onclick="updateScore('NC', '7.2.1.2')">
+                <input type="radio" name="item_7_2_1_2" value="NA" onclick="updateScore('NA', '7.2.1.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.2.1">
-                <label>8.2.2.1 Controle de potabilidade de água: Existência de POP estabelecido para este item.</label>
-                <input type="radio" name="item_8_2_2_1" value="C" onclick="updateScore('C', '8.2.2.1')">
-                <input type="radio" name="item_8_2_2_1" value="NC" onclick="updateScore('NC', '8.2.2.1')">
-                <input type="radio" name="item_8_2_2_1" value="NA" onclick="updateScore('NA', '8.2.2.1')">
+            <div class="checklist-item-row" data-item-id="7.2.2.1">
+                <label>7.2.2.1 Certificado de Aprovação do Corpo de Bombeiros exposto em local visível, de fácil acesso e com cópia disponível em pasta.</label>
+                <input type="radio" name="item_7_2_2_1" value="C" onclick="updateScore('C', '7.2.2.1')">
+                <input type="radio" name="item_7_2_2_1" value="NC" onclick="updateScore('NC', '7.2.2.1')">
+                <input type="radio" name="item_7_2_2_1" value="NA" onclick="updateScore('NA', '7.2.2.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.2.2">
-                <label>8.2.2.2 Controle de potabilidade de água: POP descrito está sendo cumprido.</label>
-                <input type="radio" name="item_8_2_2_2" value="C" onclick="updateScore('C', '8.2.2.2')">
-                <input type="radio" name="item_8_2_2_2" value="NC" onclick="updateScore('NC', '8.2.2.2')">
-                <input type="radio" name="item_8_2_2_2" value="NA" onclick="updateScore('NA', '8.2.2.2')">
+            <div class="checklist-item-row" data-item-id="7.2.2.2">
+                <label>7.2.2.2 Comprovante de controle de pragas e vetores (certificado e ordem de serviço).</label>
+                <input type="radio" name="item_7_2_2_2" value="C" onclick="updateScore('C', '7.2.2.2')">
+                <input type="radio" name="item_7_2_2_2" value="NC" onclick="updateScore('NC', '7.2.2.2')">
+                <input type="radio" name="item_7_2_2_2" value="NA" onclick="updateScore('NA', '7.2.2.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.3.1">
-                <label>8.2.3.1 Higiene e saúde dos manipuladores: Existência de POP estabelecido para este item.</label>
-                <input type="radio" name="item_8_2_3_1" value="C" onclick="updateScore('C', '8.2.3.1')">
-                <input type="radio" name="item_8_2_3_1" value="NC" onclick="updateScore('NC', '8.2.3.1')">
-                <input type="radio" name="item_8_2_3_1" value="NA" onclick="updateScore('NA', '8.2.3.1')">
+            <div class="checklist-item-row" data-item-id="7.2.3.1">
+                <label>7.2.3.1 Comprovante de limpeza de reservatórios de água (certificado e ordem de serviço).</label>
+                <input type="radio" name="item_7_2_3_1" value="C" onclick="updateScore('C', '7.2.3.1')">
+                <input type="radio" name="item_7_2_3_1" value="NC" onclick="updateScore('NC', '7.2.3.1')">
+                <input type="radio" name="item_7_2_3_1" value="NA" onclick="updateScore('NA', '7.2.3.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.3.2">
-                <label>8.2.3.2 Higiene e saúde dos manipuladores: POP descrito está sendo cumprido.</label>
-                <input type="radio" name="item_8_2_3_2" value="C" onclick="updateScore('C', '8.2.3.2')">
-                <input type="radio" name="item_8_2_3_2" value="NC" onclick="updateScore('NC', '8.2.3.2')">
-                <input type="radio" name="item_8_2_3_2" value="NA" onclick="updateScore('NA', '8.2.3.2')">
+            <div class="checklist-item-row" data-item-id="7.2.3.2">
+                <label>7.2.3.2 Laudo de potabilidade da água.</label>
+                <input type="radio" name="item_7_2_3_2" value="C" onclick="updateScore('C', '7.2.3.2')">
+                <input type="radio" name="item_7_2_3_2" value="NC" onclick="updateScore('NC', '7.2.3.2')">
+                <input type="radio" name="item_7_2_3_2" value="NA" onclick="updateScore('NA', '7.2.3.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.4.1">
-                <label>8.2.4.1 Manejo dos resíduos: Existência de POP estabelecido para este item.</label>
-                <input type="radio" name="item_8_2_4_1" value="C" onclick="updateScore('C', '8.2.4.1')">
-                <input type="radio" name="item_8_2_4_1" value="NC" onclick="updateScore('NC', '8.2.4.1')">
-                <input type="radio" name="item_8_2_4_1" value="NA" onclick="updateScore('NA', '8.2.4.1')">
+            <div class="checklist-item-row" data-item-id="7.2.4.1">
+                <label>7.2.4.1 Laudo de potabilidade do gelo.</label>
+                <input type="radio" name="item_7_2_4_1" value="C" onclick="updateScore('C', '7.2.4.1')">
+                <input type="radio" name="item_7_2_4_1" value="NC" onclick="updateScore('NC', '7.2.4.1')">
+                <input type="radio" name="item_7_2_4_1" value="NA" onclick="updateScore('NA', '7.2.4.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.4.2">
-                <label>8.2.4.2 Manejo dos resíduos: POP descrito está sendo cumprido.</label>
-                <input type="radio" name="item_8_2_4_2" value="C" onclick="updateScore('C', '8.2.4.2')">
-                <input type="radio" name="item_8_2_4_2" value="NC" onclick="updateScore('NC', '8.2.4.2')">
-                <input type="radio" name="item_8_2_4_2" value="NA" onclick="updateScore('NA', '8.2.4.2')">
+            <div class="checklist-item-row" data-item-id="7.2.4.2">
+                <label>7.2.4.2 Manifesto de resíduos sólidos (óleo/lixo).</label>
+                <input type="radio" name="item_7_2_4_2" value="C" onclick="updateScore('C', '7.2.4.2')">
+                <input type="radio" name="item_7_2_4_2" value="NC" onclick="updateScore('NC', '7.2.4.2')">
+                <input type="radio" name="item_7_2_4_2" value="NA" onclick="updateScore('NA', '7.2.4.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.5.1">
-                <label>8.2.5.1 Manutenção preventiva dos equipamentos: Existência de POP estabelecido para este item.</label>
-                <input type="radio" name="item_8_2_5_1" value="C" onclick="updateScore('C', '8.2.5.1')">
-                <input type="radio" name="item_8_2_5_1" value="NC" onclick="updateScore('NC', '8.2.5.1')">
-                <input type="radio" name="item_8_2_5_1" value="NA" onclick="updateScore('NA', '8.2.5.1')">
+            <div class="checklist-item-row" data-item-id="7.2.5.1">
+                <label>7.2.5.1 Programa de Gerenciamento de Riscos, Programa de Controle Médico de Saúde Ocupacional e  Laudo Técnico das Condições Ambientais do Trabalho atualizados.</label>
+                <input type="radio" name="item_7_2_5_1" value="C" onclick="updateScore('C', '7.2.5.1')">
+                <input type="radio" name="item_7_2_5_1" value="NC" onclick="updateScore('NC', '7.2.5.1')">
+                <input type="radio" name="item_7_2_5_1" value="NA" onclick="updateScore('NA', '7.2.5.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.5.2">
-                <label>8.2.5.2 Manutenção preventiva dos equipamentos: POP descrito está sendo cumprido.</label>
-                <input type="radio" name="item_8_2_5_2" value="C" onclick="updateScore('C', '8.2.5.2')">
-                <input type="radio" name="item_8_2_5_2" value="NC" onclick="updateScore('NC', '8.2.5.2')">
-                <input type="radio" name="item_8_2_5_2" value="NA" onclick="updateScore('NA', '8.2.5.2')">
+            <div class="checklist-item-row" data-item-id="7.2.5.2">
+                <label>7.2.5.2 Plano de Manutenção, Operação e Controle.</label>
+                <input type="radio" name="item_7_2_5_2" value="C" onclick="updateScore('C', '7.2.5.2')">
+                <input type="radio" name="item_7_2_5_2" value="NC" onclick="updateScore('NC', '7.2.5.2')">
+                <input type="radio" name="item_7_2_5_2" value="NA" onclick="updateScore('NA', '7.2.5.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.6.1">
-                <label>8.2.6.1 Controle integrado de vetores e pragas urbanas: Existência de POP estabelecido para este item.</label>
-                <input type="radio" name="item_8_2_6_1" value="C" onclick="updateScore('C', '8.2.6.1')">
-                <input type="radio" name="item_8_2_6_1" value="NC" onclick="updateScore('NC', '8.2.6.1')">
-                <input type="radio" name="item_8_2_6_1" value="NA" onclick="updateScore('NA', '8.2.6.1')">
+            <div class="checklist-item-row" data-item-id="7.2.6.1">
+                <label>7.2.6.1 Certificado de limpeza do sistema de exaustão (coifas).</label>
+                <input type="radio" name="item_7_2_6_1" value="C" onclick="updateScore('C', '7.2.6.1')">
+                <input type="radio" name="item_7_2_6_1" value="NC" onclick="updateScore('NC', '7.2.6.1')">
+                <input type="radio" name="item_7_2_6_1" value="NA" onclick="updateScore('NA', '7.2.6.1')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
-            <div class="checklist-item-row" data-item-id="8.2.6.2">
-                <label>8.2.6.2 Controle integrado de vetores e pragas urbanas: POP descrito está sendo cumprido.</label>
-                <input type="radio" name="item_8_2_6_2" value="C" onclick="updateScore('C', '8.2.6.2')">
-                <input type="radio" name="item_8_2_6_2" value="NC" onclick="updateScore('NC', '8.2.6.2')">
-                <input type="radio" name="item_8_2_6_2" value="NA" onclick="updateScore('NA', '8.2.6.2')">
+            <div class="checklist-item-row" data-item-id="7.2.6.2">
+                <label>7.2.6.2 Planilhas de controles.</label>
+                <input type="radio" name="item_7_2_6_2" value="C" onclick="updateScore('C', '7.2.6.2')">
+                <input type="radio" name="item_7_2_6_2" value="NC" onclick="updateScore('NC', '7.2.6.2')">
+                <input type="radio" name="item_7_2_6_2" value="NA" onclick="updateScore('NA', '7.2.6.2')">
                 <div class="text-center font-medium text-nutri-700">N</div>
             </div>
         </div>
@@ -1780,7 +1486,7 @@
         <!-- Seção de Pontuação e Classificação -->
         <div class="p-8 border-b border-nutri-200">
             <h2 class="text-xl font-semibold text-nutri-700 mb-6 flex items-center">
-                <i class="fas fa-chart-bar mr-2"></i> 9. PONTUAÇÃO E CLASSIFICAÇÃO FINAL
+                <i class="fas fa-chart-bar mr-2"></i> 8. PONTUAÇÃO E CLASSIFICAÇÃO FINAL
             </h2>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -1822,7 +1528,7 @@
             </div>
         </div>
         
-        <!-- Seção 10 - Observações e Ações -->
+        <!-- Seção 9 - Observações e Ações -->
         <div class="p-8 border-b border-nutri-200">
             <h2 class="text-xl font-semibold text-nutri-700 mb-6 flex items-center">
                 <i class="fas fa-clipboard mr-2"></i> 10. OBSERVAÇÕES E AÇÕES RECOMENDADAS
@@ -1846,7 +1552,7 @@
             </div>
         </div>
         
-        <!-- Seção 11 - Aprovação e Supervisão -->
+        <!-- Seção 10 - Aprovação e Supervisão -->
         <div class="p-8">
             <h2 class="text-xl font-semibold text-nutri-700 mb-6 flex items-center">
                 <i class="fas fa-check-circle mr-2"></i> 11. APROVAÇÃO E SUPERVISÃO
